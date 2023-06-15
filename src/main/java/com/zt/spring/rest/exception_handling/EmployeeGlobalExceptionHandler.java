@@ -1,4 +1,4 @@
-package com.zaurtregulov.spring.rest.exception_handling;
+package com.zt.spring.rest.exception_handling;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

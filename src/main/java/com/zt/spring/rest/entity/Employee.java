@@ -1,4 +1,4 @@
-package com.zaurtregulov.spring.rest.entity;
+package com.zt.spring.rest.entity;
 
 import javax.persistence.*;
 

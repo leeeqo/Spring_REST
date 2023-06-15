@@ -1,4 +1,4 @@
-package com.zaurtregulov.spring.rest.configuration;
+package com.zt.spring.rest.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

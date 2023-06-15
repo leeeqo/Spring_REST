@@ -1,4 +1,4 @@
-package com.zaurtregulov.spring.rest.configuration;
+package com.zt.spring.rest.configuration;
 
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
@@ -16,7 +16,7 @@ import java.beans.PropertyVetoException;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan(basePackages = "com.zaurtregulov.spring.rest")
+@ComponentScan(basePackages = "com.zt.spring.rest")
 @EnableWebMvc
 @EnableTransactionManagement
 public class MyConfig {
@@ -43,7 +43,7 @@ public class MyConfig {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
 
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan("com.zaurtregulov.spring.rest.entity");
+        sessionFactory.setPackagesToScan("com.zt.spring.rest.entity");
 
         Properties hibernateProperties = new Properties();
         hibernateProperties.setProperty("hibernate.dialect",

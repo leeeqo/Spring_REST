@@ -1,6 +1,6 @@
-package com.zaurtregulov.spring.rest.service;
+package com.zt.spring.rest.service;
 
-import com.zaurtregulov.spring.rest.entity.Employee;
+import com.zt.spring.rest.entity.Employee;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.zaurtregulov.spring.rest.exception_handling;
+package com.zt.spring.rest.exception_handling;
 
 public class NoSuchEmployeeException extends RuntimeException {
 

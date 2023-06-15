@@ -1,12 +1,9 @@
-package com.zaurtregulov.spring.rest.controller;
+package com.zt.spring.rest.controller;
 
-import com.zaurtregulov.spring.rest.entity.Employee;
-import com.zaurtregulov.spring.rest.exception_handling.EmployeeIncorrectData;
-import com.zaurtregulov.spring.rest.exception_handling.NoSuchEmployeeException;
-import com.zaurtregulov.spring.rest.service.EmployeeService;
+import com.zt.spring.rest.entity.Employee;
+import com.zt.spring.rest.exception_handling.NoSuchEmployeeException;
+import com.zt.spring.rest.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
